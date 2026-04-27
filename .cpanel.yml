@@ -2,4 +2,10 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/fzthasancelik/public_html/
-    - /bin/echo "DEPLOY TEST OK" > $DEPLOYPATH/deploy-test.txt
+    - /bin/cp -Rf wp-admin $DEPLOYPATH
+    - /bin/cp -Rf wp-includes $DEPLOYPATH
+    - /bin/mkdir -p $DEPLOYPATH/wp-content
+    - /bin/cp -Rf wp-content/themes $DEPLOYPATH/wp-content/
+    - /bin/cp -Rf wp-content/plugins $DEPLOYPATH/wp-content/
+    - /bin/cp -f *.php $DEPLOYPATH
+    - /bin/cp -f .htaccess $DEPLOYPATH
