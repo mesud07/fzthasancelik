@@ -1,0 +1,10 @@
+wp-config.php
+error_log
+*.zip
+node_modules/
+vendor/
+.DS_Store
+
+wp-content/uploads/
+wp-content/cache/
+wp-content/litespeed/
