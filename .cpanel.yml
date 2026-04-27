@@ -1,4 +1,4 @@
 ---
 deployment:
   tasks:
-    - /bin/echo "CPANEL DEPLOY OK $(date)" > ~/public_html/deploy-cpanel-log.txt
+    - /bin/echo "<?php echo 'DEPLOY OK'; ?>" > /home/fzthasancelik/public_html/test.php
