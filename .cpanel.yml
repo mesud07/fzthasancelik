@@ -1,4 +1,6 @@
 ---
 deployment:
   tasks:
-    - /bin/echo "<?php echo 'DEPLOY OK'; ?>" > /home/fzthasancelik/public_html/test.php
+    - export REPOPATH=/home/fzthasancelik/repositories/fzthasancelik/
+    - export DEPLOYPATH=/home/fzthasancelik/public_html/
+    - /usr/bin/rsync -av --delete --exclude='.git' --exclude='.cpanel.yml' --exclude='wp-config.php' --exclude='wp-content/uploads' --exclude='error_log' --exclude='*.zip' $REPOPATH $DEPLOYPATH
