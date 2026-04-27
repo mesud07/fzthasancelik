@@ -1,11 +1,8 @@
 ---
 deployment:
   tasks:
+    - export REPOPATH=/home/fzthasancelik/repositories/fzthasancelik/
     - export DEPLOYPATH=/home/fzthasancelik/public_html/
-    - /bin/cp -Rf wp-admin $DEPLOYPATH
-    - /bin/cp -Rf wp-includes $DEPLOYPATH
-    - /bin/mkdir -p $DEPLOYPATH/wp-content
-    - /bin/cp -Rf wp-content/themes $DEPLOYPATH/wp-content/
-    - /bin/cp -Rf wp-content/plugins $DEPLOYPATH/wp-content/
-    - /bin/cp -f *.php $DEPLOYPATH
-    - /bin/cp -f .htaccess $DEPLOYPATH
+    - /bin/echo "Deploy started: $(date)" > $DEPLOYPATH/deploy-log.txt
+    - /usr/bin/rsync -av --delete --exclude='.git' --exclude='.cpanel.yml' --exclude='wp-config.php' --exclude='wp-content/uploads' --exclude='error_log' --exclude='*.zip' $REPOPATH $DEPLOYPATH >> $DEPLOYPATH/deploy-log.txt 2>&1
+    - /bin/echo "Deploy finished: $(date)" >> $DEPLOYPATH/deploy-log.txt
