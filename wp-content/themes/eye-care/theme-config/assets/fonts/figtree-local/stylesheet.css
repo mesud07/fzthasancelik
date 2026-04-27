@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Figtree Local';
+    src: url('FigtreeLight-Regular.woff2') format('woff2'),
+        url('FigtreeLight-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Figtree Local';
+    src: url('FigtreeLight-Medium.woff2') format('woff2'),
+        url('FigtreeLight-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Figtree Local';
+    src: url('FigtreeLight-Light.woff2') format('woff2'),
+        url('FigtreeLight-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Figtree Local';
+    src: url('FigtreeLight-SemiBold.woff2') format('woff2'),
+        url('FigtreeLight-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+

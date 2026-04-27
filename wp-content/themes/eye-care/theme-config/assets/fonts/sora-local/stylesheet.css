@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Sora Local';
+    src: url('Sora-Regular.woff2') format('woff2'),
+        url('Sora-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sora Local';
+    src: url('Sora-Light.woff2') format('woff2'),
+        url('Sora-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+

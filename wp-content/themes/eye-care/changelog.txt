@@ -1,0 +1,26 @@
+== Changelog ==
+
+
+= 1.1.1 - 2025-03-04 =
+* Tweak: Importer optimization.
+* Bug Fix: Fixed animation in page preloader.
+
+
+= 1.1.0 - 2025-01-22 =
+* Tweak: Improve importer.
+* Tweak: Improve security.
+* Bug Fix: Fixed translations in theme.
+
+
+= 1.0.2 - 2024-12-26 =
+* Tweak: Improved demo content import process.
+* Bug Fix: Fixed responsive for latest events.
+* Bug Fix: Fixed elementor editor for user roles.
+* Bug Fix: Fixed Forminator post types registration.
+
+
+= 1.0.1 - 2024-11-12 =
+* Adding Envato Elements activation.
+
+= 1.0.0 - 2024-11-06 =
+* Release

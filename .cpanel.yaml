@@ -1,0 +1,9 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/fzthasancelik/public_html
+
+    - /bin/rsync -av --delete \
+      --exclude=".git" \
+      --exclude="wp-config.php" \
+      --exclude="wp-content/uploads" \
+      ./ $DEPLOYPATH

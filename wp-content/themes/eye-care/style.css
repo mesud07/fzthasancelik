@@ -1,0 +1,24 @@
+@charset "UTF-8";
+/*
+Theme Name: Eye Care
+Theme URI: https://eye-care.cmsmasters.net/
+Author: cmsmasters
+Author URI: https://cmsmasters.net/
+Description: Eye Care is the Optometrist & Eye Care  Elementor based WordPress Theme designed specially for ophthalmologists, optometrists and opticians. Eye Care is a medical theme that is packed with custom post types for doctors profiles and medical services, and content templates for all sorts of article presentation. Perfect for Eye Clinic and Health Center, Optic Store or Eye Doctor private practice.
+Version: 1.1.1
+Tested up to: 6.6
+Requires PHP: 7.4
+License:
+License URI:
+Text Domain: eye-care
+Domain Path: /theme-config/languages
+Copyright: cmsmasters 2024 / All Rights Reserved
+Tags: one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-image-header, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+*/
+
+
+.sticky,
+.bypostauthor,
+.screen-reader-text {
+  outline: none;
+}
